@@ -1,0 +1,22 @@
+php artisan migrate     //commit the tables created
+php artisan migrate:reset   //reset table
+php artisan make:migration create_test_table  //create table
+php artisan migrate:rollback  //return to the past
+php artisan migrate:rollback --step 3   //return to the past (range)
+
+
+php artisan migrate:refresh
+Drops all tables in the database.
+Re-runs all migrations (php artisan migrate).
+Your database structure is reset as if you're setting it up for the first time.
+
+
+php artisan migrate:reset
+After running this, if you check your database, you'll see no tables (except for Laravel’s migration table).
+
+
+
+php artisan migrate --path=/database/migrations/2025_03_13_022823_create_test1_table.php
+or
+2025_03_13_022835_create_test5_table.php
+After running this, this only migrate one specific table
