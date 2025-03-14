@@ -26,6 +26,8 @@ One-to-One-Relationship folder contains
 #66 Send Email | laravel send mail with smtp PART 2
 #67 Inline Blade template
 
+
+
 #1 What is Laravel?
 
 #2 Install API package
